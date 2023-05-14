@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor{
+    color: aliceblue;
+
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+
+
+    grid-template-areas: 
+    "navegador navegador navegador"
+    "cuerpo1 cuerpo2 cuerpo3"
+    "cuerpo4 cuerpo4 cuerpo4"
+
+}
+.navegador {
+  
+color: aliceblue;
+    top: 0;
+ 
+    background-image: linear-gradient(315deg, #4e43e8 0%, #000000 74%);;
+   
+    height: 150px;
+   
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+
+    grid-area: navegador;
+}
+
+.nave ul {
+    display: inline-block;
+
+    list-style: none;
+    margin: 20px;
+    display: flex;
+  
+    margin: 10px;
+justify-content: space-around;
+}
+.menu {
+  text-decoration: none;
+background-color::#eec0c6;
+background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+;
+    margin: 20px;
+
+padding: 10px 30px;
+}
+
+    
+
+.nave ul a:hover {
+    background-color: aliceblue;
+}
+.cuerpo1 {
+    text-align: center;
+    background-color: rgb(28, 44, 189);
+    grid-area: cuerpo1
+}
+.cuerpo2 {  
+    text-align: center;
+    background-color: grey;
+    grid-area: cuerpo2;
+
+}
+.cuerpo3 {
+  
+  text-align: center;
+    background-color: red;
+    grid-area: cuerpo3;
+}
+.cuerpo4 {
+    text-align: center;
+    background-color: green;
+    grid-area: cuerpo4;
+}
+body { 
+    background-color: #20bf55;
+background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+
+
+   
+}
