@@ -49,8 +49,8 @@ justify-content: space-around;
 }
 .menu {
   text-decoration: none;
-background-color::#eec0c6;
-background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+background-color:#42c51a;
+
 ;
     margin: 20px;
 
@@ -59,8 +59,8 @@ padding: 10px 30px;
 
     
 
-.nave ul a:hover {
-    background-color: aliceblue;
+.menu:hover{
+    background-color: rgb(12, 128, 230);
 }
 .cuerpo1 {
     text-align: center;
